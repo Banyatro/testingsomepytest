@@ -18,4 +18,6 @@ class Calculator:
         При делении на ноль должен выбрасывать ValueError.
         """
         # БАГ ДЛЯ СТУДЕНТОВ: Вместо исключения возвращает 0
+        if b == 0:
+            raise(ValueError)
         return a / b
