@@ -3,7 +3,7 @@ class Calculator:
         """Возвращает сумму двух чисел."""
         return a + b
 
-    def subtract(self, a: float, b: float) -> float:
+    def substract(self, a: float, b: float) -> float:
         """Возвращает разность двух чисел (a - b)."""
         # БАГ ДЛЯ СТУДЕНТОВ: Неверный порядок вычитания
         return b - a
