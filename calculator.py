@@ -1,4 +1,4 @@
-class calculator:
+class Calculator:
     def add(self, a: float, b: float) -> float:
         """Возвращает сумму двух чисел."""
         return a + b
