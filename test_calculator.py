@@ -2,7 +2,7 @@ from Calculator import calculator
 import pytest
 
 
-@pytes.fixture
+@pytest.fixture
 def calc():
     return Calculator()
 
