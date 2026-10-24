@@ -16,7 +16,7 @@ def test_multiply():
     assert Calculator().multiply(-2.0, 4.0) == -8.0
 
 def test_divide():
-    assert Calculator()_divide(10.0, 5.0) == 2.0
+    assert Calculator().divide(10.0, 5.0) == 2.0
 
 def test_divide_by_zero(Calculator()):
     with pytest.raises(ValueError):
