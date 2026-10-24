@@ -24,6 +24,8 @@ jobs:
     - name: Static type checher
       run: |
         mypy calculator.py
+    - name: Installing path|
+        pytest -o pythonpath=.
     - name: Run Unit tests
       run: |
         pytest test_calculator.py -v
